@@ -1,0 +1,294 @@
+h1{
+    text-align:center;
+    margin-top:-35px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#ten{
+    margin:auto;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 25px;
+    border:none;
+  color:rgb(0, 0, 0);
+    height:70px;
+    width:110px;
+    margin-left: 83%;
+    background-color:transparent;
+    margin-bottom: -90px;
+    margin-top: -30px;
+
+    
+}
+body{
+    background-color: rgb(253, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+#con{
+
+    margin:auto;
+    font-size: 25px;
+    border:none;
+  color:rgb(0, 0, 0);
+    height:70px;
+    width:110px;
+    margin-left: 85%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    margin-bottom: -120px;
+    margin-top: -20px;
+    background-color:transparent;
+    float:left
+}
+input[type=email],input[type=password],input[type=text]{
+    margin-left:39%;
+    width: 430px;
+    height: 35px;
+    margin-bottom:16px;
+    font-size:15px;
+    margin-top:14px;
+    border-radius: 100px;
+    margin-left:33%;
+
+}
+
+    *{
+        font-family:Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+}
+#tennis{
+    background-color:rgb(110, 182, 110);
+    color:white;
+    height:35px;
+    width: 430px;
+    font-size:20px;
+    margin-top:24px;
+    border-radius:100px;
+    margin-left:33%;
+}
+button:hover{
+    background-color:rgb(137, 190, 137);
+}
+
+.chicken{
+    font-size:20px;
+   font-weight: bold;
+   margin-bottom:24px;
+   margin-top:24px;
+   margin-left:34%;
+}
+#jeff{
+    margin-top:-6%;
+  margin-left:7%;
+  
+}
+#deep{
+    margin-left:53%;
+    margin-top:-390px;
+}
+#lol{
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#dood{
+    font-size:15px;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+input[type=checkbox]{
+    margin-left:33%
+}
+.join{
+    background-color:rgb(137, 190, 137);
+    height:35px;
+    width: 200px;
+    margin-bottom:-160px;
+    margin-left:79%;
+    border-radius: 100px;
+    border:none;
+    font-size:20px;
+}
+.join:hover{
+    background-color:rgb(138, 243, 138);
+}
+#superb{
+    margin-right:73%;
+    margin-bottom:-400px;
+    
+}
+#sope{
+    margin-left: 70%;
+    margin-bottom: -400px;
+}
+#tennis:hover
+{
+    background-color:rgb(138, 243, 138);
+}
+label{
+    margin-left:34%;
+}
+#COOP{
+    margin-top:-30px;
+}
+#john{
+    margin-bottom: -450px;
+}
+#dude{
+    margin-left:70%;
+    margin-bottom:-450px;
+}
+#kip{
+    margin-left:34%;
+}
+#pik{
+    margin-left:20%;
+    margin-top: 6%;
+}
+#role{
+    height:60px;
+    width:400px;
+    margin-left: 10%;
+    background-color: rgb(143, 187, 55);
+    border-radius: 100px;
+    border:none;
+    font-size:35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#dot{
+    height:100%;
+    width:100%
+}
+textarea{
+    
+    height:60%;
+    width:75%;
+}
+.less{
+    font-size:35px;
+    margin-bottom: 60px;
+}
+#canup{
+    margin-left:20%;
+    height:400px;
+    width:700px;
+
+}
+#non{
+    background-color:rgb(110, 182, 110);
+    color:white;
+    height:35px;
+    width: 90px;
+    font-size:20px;
+    margin-top:24px;
+    border-radius:100px;
+    margin-left:69%;
+    margin-top:-200%;
+
+}
+.superlogo{
+    margin-bottom:-70px;
+}
+#ultrapassword{
+    margin-left:35%
+}
+#Theback{
+    color:white;
+    background-color: rgb(143, 187, 55);
+    height:30px;
+    width:100px;
+    border-radius: 100px;
+    border: solid transparent;
+    margin-left: 40px;
+    margin-top:-100px
+
+}
+
+#DaLogo{
+    margin-top:-100px
+}
+#theenter{
+    
+    margin-left:40%;
+    margin-top:640px;
+}
+#DaEmail{
+    margin-left:40%;
+height:35px;
+width:300px;
+}
+.chuck{
+    height:30px;
+    width:130px;
+}
+#moimoi{
+    margin-left:35%;
+}
+#Bazooka{
+    margin-left:49%;
+    font-size:20px;
+}
+.sender{
+    height:30px;
+    width:90px;
+    color:white;
+    background-color: yellowgreen;
+    font-size: 20px;
+    border-radius: 341241px;
+    border: solid transparent;
+    
+}
+.ultragarlic{
+    display:flex;
+    justify-content: center;
+}
+html {
+    height:100%;
+  }
+  
+  body {
+    margin:0;
+  }
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+
+  
+  h1 {
+    font-family:monospace;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+  

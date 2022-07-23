@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+
+body{
+    font-family: "mulish";
+    background-color: rgb(255, 255, 255);
+}
+header{
+    background-color: rgb(227, 212, 241);
+    height:80%;
+    width:100%;
+}
+.Welcome{
+    font-size: 30px;
+    font-weight:80px;
+    color:rgb(141, 84, 194);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.slogan{
+    font-size: 40px;
+    font-weight:900;
+    color:rgb(118, 63, 170);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.about{
+    
+    
+    color:rgb(193, 132, 250);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    padding-top: -10px;
+
+}
+.login{
+    color:white;
+    background-color: blueviolet;
+    margin-top: 50px;
+    height: 45px;
+    width:180px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid transparent;
+    border-radius: 100px;
+    margin-left: 30px;
+}
+.sign{
+    color:white;
+    background-color: blueviolet;
+    margin-top: 50px;
+    height: 45px;
+    width:180px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid transparent;
+    border-radius: 100px;
+    margin-left: 30px;
+}
+.homepageimg{
+    margin-left: 700px;
+    height:350px;
+    width:600px;
+    margin-top:-150px
+}
+.bulb{
+    height:90px;
+    width:80px;
+    margin-top:100px;
+    margin-left: 90px;
+    margin-bottom: -10px;
+    color:blueviolet;
+}
+.benifit1{
+    margin-left: 170px;
+    margin-top: -50px;
+    color:rgb(171, 98, 201);
+    font-size:20px ;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.second{
+    height:75px;
+    width:105px;
+    margin-top:-270px;
+    margin-left: 525px;
+
+
+}
+.benifit2{
+
+    margin-top: -60px;
+    color:rgb(171, 98, 201);
+    font-size:20px ;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.third{
+    height:75px;
+    width:125px;
+    margin-top:-80px;
+    margin-left: 975px;
+
+}
+
+.benifit3{
+    margin-left: 1090px;
+    margin-top: -60px;
+    color:rgb(171, 98, 201);
+    font-size:20px ;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sloganthe2{
+    font-size: 45px;
+    font-weight:900;
+    color:rgb(78, 38, 116);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    padding-top: 150px;
+ margin-left: 100px;
+
+}
+footer{
+    background-color: rgb(227, 212, 241);
+    height: 350px;
+}
+.know{
+    font-size: 25px;
+    font-weight:900;
+    color:rgb(118, 63, 170);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+   margin-top: -190px;
+}
+.icon1{
+    height:60px;
+    width:60px;
+    margin-top: 20px;
+    margin-left: 250px;
+  
+  
+}
+.tweet{
+    color:rgb(193, 132, 250);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 310px;
+margin-top: -60px;
+
+}
+.facebook{
+    color:rgb(193, 132, 250);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 335px;
+margin-top: -50px;
+
+}
+.icon2{
+    height:60px;
+    width: 60px;
+    margin-left: 250px;
+    margin-top: 5px;
+}
+.icon3{
+    height:60px;
+    width: 60px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.divv{
+    display: flex;
+    justify-content: center;
+    margin-top: -250px;
+    margin-bottom: 60px;
+}
+.plus{
+    color:rgb(193, 132, 250);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 600px;
+    margin-top: -230px;
+  font-size: 17px;
+
+}
+.HP{
+    margin-left:1000px;
+    margin-top: -120px;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  position: relative;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: black;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  background-color: black;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="Welcome">Welcome to HELPO</h1>
+            <p class="slogan">Helpo, where all your doubts are cleared</p>
+            <p class="about">In Helpo, you can interact with your peers online at any time for doubt learence and more.
+            It works on a point <br>based system, 
+            so get the most points by answering others questions.</p>
+            <a href="Helpo1.html"><button class="login" type="button">Login</button></a>     <a href="helpo2.html"><button type="button" class="sign">Sign up</button></a>
+            <img class="homepageimg" src="Screen_Shot_2022-03-23_at_12.44.02_PM-removebg-preview.png"/>
+        </header>
+        <img class="bulb" src="kissclipart-important-tip-clipart-central-board-of-secondary-e-6a2b0eacf02f6305-removebg-preview.png">
+        <p class="benifit1">Helps get better grades</p>
+        <img class="second" src="Screen_Shot_2022-03-23_at_1.21.06_PM-removebg-preview.png">
+        <p class="benifit2">Points bring the fun</p>
+        <img class="third" src="Asset-38-8.png">
+        <p class="benifit3">Easy to access</p>
+        <h1 class="sloganthe2">For the students, by the students, of the students</h1>
+ 
+<div class="container">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="Screen_Shot_2022-03-23_at_1.21.06_PM-removebg-preview.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="Screen_Shot_2022-03-23_at_12.44.02_PM-removebg-preview.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="Screen_Shot_2022-03-24_at_8.00.49_PM-removebg-preview.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="Screen_Shot_2022-03-23_at_1.21.06_PM-removebg-preview.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="Screen Shot 2021-10-17 at 9.34.18 PM.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="Screen Shot 2021-10-17 at 9.34.18 PM.png" style="width:100%">
+    </div>
+  
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="Screen Shot 2021-10-17 at 9.34.18 PM.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Screen_Shot_2022-03-24_at_7.43.06_PM-removebg-preview.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="kissclipart-important-tip-clipart-central-board-of-secondary-e-6a2b0eacf02f6305-removebg-preview.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Screen Shot 2021-10-17 at 9.34.18 PM.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Screen_Shot_2022-03-23_at_12.44.02_PM-removebg-preview.png" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Screen Shot 2022-01-08 at 1.13.03 PM.png" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+      </div>
+    </div>
+  </div>
+        <footer>
+            <img class="icon1" src="Twitter-logo-purple-PNG-removebg-preview.png"/><ul><li class="tweet">Twitter</li></ul>
+            <img class="icon2" src="png-clipart-social-media-computer-icons-a-vito-martinez-middle-school-facebook-social-media-purple-violet-thumbnail-removebg-preview.png"/></ul><li class="facebook">Facebook</li></ul>
+            <img class="icon3" src="png-clipart-viber-icon-test-apk-whatsapp-android-whatsapp-logo-purple-violet-removebg-preview.png"/></ul><li class="facebook">Whatsapp</li></ul>
+            <img class="icon3" src="logo-pinterest-violet-removebg-preview.png"/></ul><li class="facebook">Pintrest</li></ul>
+            <h2 class="know">WE ARE IN<BR>
+                 THE KNOW</h2>
+                 <p class="about">Visit our site from <br>
+                    lots of different social<br>
+                     medias, and share Helpo<br>
+                      with your friends.<br>
+                    And with more<br>
+                people, there will
+            be <br>lesser doubts.
+        Go <br>on and share
+    Helpo.</p>
+    <div class="divv">    <img class="Textbox" src="Screen_Shot_2022-03-24_at_7.43.06_PM-removebg-preview.png" height=230px width=300px/>
+        </div>
+        <p class="plus">When you share Helpo with <br>
+        your friends you not just<br>
+    get a better society but <br>
+also <span style="color: blueviolet; font-size: 20px;">Helpo Plus for free</span></p>
+<img class="HP" src="Screen_Shot_2022-03-24_at_8.00.49_PM-removebg-preview.png" height=170px width=200px/>
+            <script>let slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("demo");
+                  let captionText = document.getElementById("caption");
+                  if (n > slides.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " active";
+                  captionText.innerHTML = dots[slideIndex-1].alt;
+                }
+                </script>
+        </footer>
+    </body>
+</html>
